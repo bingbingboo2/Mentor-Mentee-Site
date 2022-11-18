@@ -1,0 +1,34 @@
+.image-wrapper{
+    position: relative;
+    overflow: hidden;
+}
+.image-wrapper> img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+
+}
+.image-wrapper> .content{
+    position: absolute;
+    inset: 0;
+    font-size: 2rem;
+    padding: 1rem;
+    background: rgb(215, 215, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-wrapper > img ,
+.image-wrapper > .content{
+    transition: 200ms ease-in-out;
+}
+.image-wrapper>.content.slide-right {
+    transform: translateX(-100%);
+}
+.image-wrapper:hover >
+.content.slide-right{
+    transform: translateX(-100%);
+}
+.image-wrapper:hover > img.gray {
+    filter: grayscale(1);
+}

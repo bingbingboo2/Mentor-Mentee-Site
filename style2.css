@@ -1,0 +1,32 @@
+body{
+    padding-left: 11%;
+    padding-right: 11%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 5px;
+    border: 1px white;
+    
+}
+
+        .td1{
+            background-color: grey;
+            width: 50%;
+            height: 100%;
+            float: left;
+            box-shadow: 10px 10px  rgb(161, 170, 173);
+
+          
+           
+        
+        }
+        .td2{
+           float: right;
+            width:50%;
+            height: 100%;
+            box-shadow: 10px 10px  rgb(161, 170, 173);
+            
+        }
+        
+        #section1{
+            background-color: green;
+        }
